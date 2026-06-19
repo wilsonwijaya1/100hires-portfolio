@@ -8,7 +8,7 @@ Usage:
 import re
 import sys
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import List, Optional, Tuple
 
 import click
 import requests
@@ -23,7 +23,7 @@ class AuditResult:
     status: Optional[int]
     title: Optional[str]
     meta_description: Optional[str]
-    headings: List[str]
+    headings: List[Tuple[str, str]]
     word_count: int
     link_count: int
     issues: List[str]
@@ -41,13 +41,13 @@ def fetch_page(url: str, timeout: int = 20) -> requests.Response:
 def analyze(html: str, url: str) -> AuditResult:
     soup = BeautifulSoup(html, "html.parser")
 
-    title = (soup.title.string or "").strip() if soup.title else None
+    title = soup.title.get_text(strip=True) if soup.title else None
     description_tag = soup.find("meta", attrs={"name": re.compile("^description$", re.I)})
     meta_description = description_tag.get("content", "").strip() if description_tag else None
 
-    headings: List[str] = []
+    headings: List[Tuple[str, str]] = []
     for tag in ["h1", "h2", "h3"]:
-        headings.extend([h.get_text(strip=True) for h in soup.find_all(tag) if h.get_text(strip=True)])
+        headings.extend([(tag, h.get_text(strip=True)) for h in soup.find_all(tag) if h.get_text(strip=True)])
 
     text = soup.get_text(separator=" ", strip=True)
     word_count = len(re.findall(r"\b\w+\b", text))
@@ -122,13 +122,8 @@ def audit(url: str, limit: int, as_json: bool) -> None:
     table = Table(title="Headings", show_lines=True)
     table.add_column("Tag", justify="left", style="cyan", no_wrap=True)
     table.add_column("Text", justify="left", style="white")
-    for text in headings:
-        if not text:
-            continue
-        inferred = "plain"
-        if re.match(r"^#+\s", text):
-            inferred = "markdown"
-        table.add_row(inferred, str(text))
+    for tag, text in headings:
+        table.add_row(tag, text)
 
     print(table)
 

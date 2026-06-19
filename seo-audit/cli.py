@@ -102,6 +102,12 @@ def audit(url: str, limit: int, as_json: bool) -> None:
     result = analyze(response.text, url)
     result.status = response.status_code
 
+    if as_json:
+        import json
+        from dataclasses import asdict
+        print(json.dumps(asdict(result), indent=2))
+        return
+
     issues = result.issues
     if not issues:
         print(f"[bold green]No critical issues[/bold green] for [link={url}]{url}[/link]")

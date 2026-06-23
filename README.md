@@ -3,6 +3,28 @@
 ## Overview
 This repository documents a hiring-process submission for 100Hires, completed using an AI-assisted workflow. It includes an installable Python tool, setup notes, and the problems encountered during setup.
 
+## Research Project: Cold Outreach Pipeline for B2B SaaS
+
+### Why This Topic Was Chosen
+Cold outreach is one of the highest-leverage channels for B2B SaaS companies looking to generate pipeline predictably. For a junior growth marketing specialist cohort, demonstrating structured research on this topic signals strategic thinking, commercial awareness, and the ability to synthesize practitioner-level insights into actionable frameworks.
+
+### Research Methodology
+The project combines three research approaches:
+
+1. **LinkedIn Post Analysis** — Capturing and annotating posts from verified SaaS practitioners to surface current tactics, objection-handling scripts, and channel-specific best practices. Raw posts are stored in `research/linkedin-posts/`.
+2. **YouTube Transcript Review** — Extracting and summarizing full-length videos from respected growth experts to capture detailed walkthroughs of cold email sequences, outbound cadences, and tool stacks. Transcripts are stored in `research/youtube-transcripts/`.
+3. **API / Tool-Assisted Research** — Supplementing manual browsing with structured lookups (where APIs or existing tools allow) to validate claims, find additional voices, or cross-reference data points.
+
+### Expert Selection Criteria
+Experts were chosen based on the following filters:
+
+- **Role**: Must be a current B2B SaaS practitioner (e.g., Head of Growth, Sales Development Rep, Demand Gen Lead) — not solely an educator or agency marketer.
+- **Recency**: Must have published relevant content within the last 60 days.
+- **Depth**: Preference given to long-form breakdowns, real campaign snippets, or reproducible frameworks rather than generic motivational posts.
+- **Verifiability**: Content is linked directly so reviewers can confirm recency and context.
+
+See the full annotated source list in `research/sources.md`.
+
 ## Installed Tools
 - Cursor IDE (`C:\Users\Wilson\AppData\Local\Programs\cursor\`)
 - Cursor add-ons: Claude Code, Codex

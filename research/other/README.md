@@ -16,5 +16,5 @@ These files are derived directly from the raw collections. They represent the sy
 |-------|---------------|
 | framework-comparison.md | Connor (Higher Levels), Alex Berman, Hoani Taylor |
 | objection-response-bank.md | Connor (Higher Levels), Taylor Haren, Y Combinator |
-| template-bank.md | Alex Berman, Julian Goldie, Laura Lopuch, Connor |
+| template-bank.md | Alex Berman, Connor, Laura Lopuch |
 | quick-reference.md | All 10 experts (consolidated) |

@@ -20,7 +20,7 @@ The practitioners who consistently book 3–5 meetings/week (or 68,000+ emails/d
 ## Core Frameworks
 
 ### 1. Connor (Higher Levels) — The 3-Body assumptive framework
-**File**: `connector-higher-levels--XLsAAnNaFOc.txt`
+**File**: `connor-higher-levels--XLsAAnNaFOc.txt`
 
 The most actionable template structure:
 
@@ -41,7 +41,7 @@ Paragraph 3: What you want — a specific ask, not "worth a chat"
 ---
 
 ### 2. Alex Berman — PC & PEC formulas
-**File**: `alex-berman-881Dr4lMey4.txt`
+**File**: `linkedin-posts/alex-berman.txt`
 
 - **PC Formula (Pinpoint + Call to action)**: Identify a specific pain point, then pivot to CTA
   - Example: "Hey Andrew, noticed Workday still hasn't found a digital sales manager. Bummer. I run a cold email automation tool that can make this role irrelevant and flood you with meetings."
@@ -214,8 +214,8 @@ When you don't have budget for tools:
 ## Recommended Reading Order
 
 If you're building this pipeline this week:
-1. **Connor** (assembler-higher-levels--XLsAAnNaFOc.txt) — start here for the framework
-2. **Alex Berman** (alex-berman-881Dr4lMey4.txt) — templates & psychology
+1. **Connor** (connor-higher-levels--XLsAAnNaFOc.txt) — start here for the framework
+2. **Alex Berman** (`linkedin-posts/alex-berman.txt`) — templates & psychology
 3. **Hoani Taylor** (hoani-taylor-OxJSakJHbS4.txt) — scale mechanics
 4. **Taylor Haren** (taylor-haren-oQqDkHrdI48.txt) — 2026 format tweaks
 

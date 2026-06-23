@@ -1,6 +1,6 @@
 # Template Bank
 
-Derived from Alex Berman, Connor, Julian Goldie, and Laura Lopuch frameworks.
+Derived from Alex Berman, Connor, and Laura Lopuch frameworks.
 
 ## Finance Persona (CFO / VP Finance / Controller)
 

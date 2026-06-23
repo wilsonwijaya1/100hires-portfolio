@@ -28,7 +28,7 @@ See the full annotated source list in `research/sources.md`.
 ### Collected Content
 - **10 practitioners** verified across YouTube and LinkedIn
 - **10 YouTube transcripts** — 6 KB to 278 KB each (full-length videos, 6–240 min)
-- **4 LinkedIn posts** — scraped from public profiles
+- **1 LinkedIn post** — scraped from public profiles
 - Total raw corpus: ~570 KB in `research/`
 
 ### Synthesis Output

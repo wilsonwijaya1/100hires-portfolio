@@ -215,7 +215,7 @@ When you don't have budget for tools:
 
 If you're building this pipeline this week:
 1. **Connor** (connor-higher-levels--XLsAAnNaFOc.txt) — start here for the framework
-2. **Alex Berman** (`linkedin-posts/alex-berman.txt`) — templates & psychology
+2. **Alex Berman** (`youtube-transcripts/alex-berman-881Dr4lMey4.txt`, `linkedin-posts/alex-berman.txt`) — templates & psychology
 3. **Hoani Taylor** (hoani-taylor-OxJSakJHbS4.txt) — scale mechanics
 4. **Taylor Haren** (taylor-haren-oQqDkHrdI48.txt) — 2026 format tweaks
 

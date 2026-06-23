@@ -7,7 +7,7 @@
 
 | # | Expert | Platform | URL | Recent Content Reviewed | Source File / Link |
 |---|--------|----------|-----|------------------------|-------------------|
-| 1 | Alex Berman | YouTube / LinkedIn | https://www.youtube.com/@AlexBerman • https://www.linkedin.com/in/alexanderberman | • "I Built an AI That Writes Perfect Cold Emails" — LinkedIn, 2025<br>• "How To Write Killer Cold Emails That GUARANTEE Responses" — YouTube, 2025 | `linkedin-posts/alex-berman.txt`<br>*(YouTube transcript collected but omitted; LinkedIn post retained as primary source)* |
+| 1 | Alex Berman | YouTube / LinkedIn | https://www.youtube.com/@AlexBerman • https://www.linkedin.com/in/alexanderberman | • "How To Write Killer Cold Emails That GUARANTEE Responses (45.8% Reply Rate?!)" — 2025 | `youtube-transcripts/alex-berman-881Dr4lMey4.txt`<br>`linkedin-posts/alex-berman.txt` |
 | 2 | Taylor Haren | YouTube | https://www.youtube.com/@TaylorAHaren | • "The BEST Cold Email Strategy for SaaS in 2026" — 2025/2026 | `youtube-transcripts/taylor-haren-oQqDkHrdI48.txt` |
 | 3 | Matteo Isenburg | YouTube | https://www.youtube.com/@matteoisenburg | • "Cold Outreach in Tech Sales: Winning B2B SaaS Sales Tactics" — 2025 | `youtube-transcripts/matteo-isenburg-eNZnJwbjfOo.txt` |
 | 4 | Hoani Taylor | YouTube | https://www.youtube.com/@HoaniCtaylor | • "How I Send 68,000+ Cold Emails Every Day (Full Breakdown)" — 2025 | `youtube-transcripts/hoani-taylor-OxJSakJHbS4.txt` |

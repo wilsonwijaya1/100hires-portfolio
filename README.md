@@ -25,11 +25,15 @@ Experts were chosen based on the following filters:
 
 See the full annotated source list in `research/sources.md`.
 
-### Collected Content (as of this commit)
+### Collected Content
 - **10 practitioners** verified across YouTube and LinkedIn
-- **7 YouTube transcripts** — average 10–18 KB each
+- **10 YouTube transcripts** — 6 KB to 278 KB each (full-length videos, 6–240 min)
 - **4 LinkedIn posts** — scraped from public profiles
-- Total raw corpus: ~110 KB in `research/`
+- Total raw corpus: ~570 KB in `research/`
+
+### Synthesis Output
+- `research/synthesis-playbook.md` — distilled frameworks, tactical playbook, and recommended reading order
+- `research/other/` — deployable assets: template bank, objection-response bank, framework comparison, quick-reference cheat sheet
 
 ## Installed Tools
 - Cursor IDE (`C:\Users\Wilson\AppData\Local\Programs\cursor\`)

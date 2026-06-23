@@ -1,0 +1,48 @@
+# Alex Berman
+# URL: https://www.linkedin.com/posts/alexanderberman_i-built-an-ai-that-writes-perfect-cold-emails-activity-7313225776525414400-037B
+
+I Built an AI That Writes Perfect Cold Emails:
+
+Let’s be honest - most AI cold emails suck.
+ 
+They look fine (lol) but fail because they’re missing the right offer, target, and case study. This is why campaigns fail.
+ 
+There are two types of people:
+ 
+Action takers - They blast out GPT drafts just to get data.
+ 
+And overthinkers - They pause, tweak the offer, target, and case studies to get everything perfect.
+ 
+Most of the time in LIFE, I’m with the action takers. But this is the one place they’re wrong.
+ 
+Here’s why:
+
+Mid emails don’t convert.
+ 
+So the campaigns fail and people give up or blame the channel.
+ 
+aka &quot;cold email doesn't work&quot; syndrome
+ 
+So I just built an AI that tries to write perfect cold emails:
+
+Using n8n
+ 
+* It scrapes the site using Serper
+ 
+* Then using ChatGPT and the 80 page training doc I wrote, It finds the offer, then triple checks it to make sure it's spot-on
+ 
+* It pinpoints the target market, including suggested LinkedIn Sales Nav searches.
+ 
+* It hunts down case studies and rephrases them for cold email campaigns.
+
+* Finally, it writes up to 3 emails using my library of 50+ high-converting email scripts
+ 
+I say UP TO 3 because if the emails aren’t solid, they’re tossed.
+ 
+This is only available to AB Mastermind members.
+
+So join the Mastermind now for exclusive access to this tool (and all the other cool stuff like 7x calls a week 30+ hours of courses and so much more).
+ 
+It's time. Get in here.
+
+Check out the video: | 20 comments on LinkedIn

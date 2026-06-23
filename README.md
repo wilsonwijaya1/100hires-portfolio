@@ -25,6 +25,12 @@ Experts were chosen based on the following filters:
 
 See the full annotated source list in `research/sources.md`.
 
+### Collected Content (as of this commit)
+- **10 practitioners** verified across YouTube and LinkedIn
+- **7 YouTube transcripts** — average 10–18 KB each
+- **4 LinkedIn posts** — scraped from public profiles
+- Total raw corpus: ~110 KB in `research/`
+
 ## Installed Tools
 - Cursor IDE (`C:\Users\Wilson\AppData\Local\Programs\cursor\`)
 - Cursor add-ons: Claude Code, Codex
